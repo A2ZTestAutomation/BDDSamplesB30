@@ -27,6 +27,7 @@ public class CRMStepDef {
 	@Before(value="@SmokeTest", order=2)
 	public void connectDBSmoke() {
 		System.out.println("connect with SmokeTest DB ");
+		System.out.println("Updated for CR1");
 	}
 	
 	
