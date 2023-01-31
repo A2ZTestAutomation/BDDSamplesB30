@@ -18,7 +18,11 @@ public class CRMStepDef {
 	@Before(value="@RegressionTest", order=2)
 	public void connectDB() {
 		System.out.println("connect with DB");
+
 		System.out.println("Updated for Phase1 Fixes");
+
+		System.out.println("Updated in Phase2");
+
 	}
 	
 	@Before(value="@SmokeTest", order=1)
