@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-30T11:54:18 IST" name="Default suite" finished-at="2023-01-30T11:54:21 IST" duration-ms="3064">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TaggedRunner@3bf7ca37]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-30T11:54:18 IST" name="Default test" finished-at="2023-01-30T11:54:21 IST" duration-ms="3064">
+      <class name="runners.TaggedRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TaggedRunner@3bf7ca37]" started-at="2023-01-30T11:54:18 IST" name="setUpClass" finished-at="2023-01-30T11:54:18 IST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1bcf67e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TaggedRunner@3bf7ca37]" started-at="2023-01-30T11:54:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-30T11:54:19 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a Contact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contacts Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TaggedRunner@3bf7ca37]" started-at="2023-01-30T11:54:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-30T11:54:19 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a Contact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contacts Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TaggedRunner@3bf7ca37]" started-at="2023-01-30T11:54:19 IST" name="tearDownClass" finished-at="2023-01-30T11:54:21 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TaggedRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
